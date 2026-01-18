@@ -1,0 +1,79 @@
+| YEAR                                         | RATE OF INTEREST (%)                                                                                                             |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| 01-04-1981 to 31-03-1982                     | 9.9                                                                                                                              |
+| 01-04-1982 to 28-02-1983                     | 10.3                                                                                                                             |
+| 01-03-1983 to 31-03-1987​​                   | 11.3                                                                                                                             |
+| 01-04-1987 to 31-03-1991                     | 11                                                                                                                               |
+| 01-04-1991 to 30-09-1991                     | 11.5                                                                                                                             |
+| 01-10-1991 to 01-09-1993                     | 13.5                                                                                                                             |
+| 02-09-1993 to 31-12-1998                     | 12.5                                                                                                                             |
+| 01-01-1999 to 14-01-2000                     | 11.5                                                                                                                             |
+| 15-01-2000 to 28-02-2001                     | 10.5                                                                                                                             |
+| 01-03-2001 to 28-02-2002                     | 9                                                                                                                                |
+| 01-03-2002 to 28-02-2003                     | 8.5                                                                                                                              |
+| 01-03-2003 to 30-11-2011                     | 7.5                                                                                                                              |
+| 01-12-2011 to 31-03-2012                     | 8                                                                                                                                |
+| 01-04-2012 to 31-03-2013                     | 8.4                                                                                                                              |
+| 01-04-2013 to 31-03-2014                     | 8.3                                                                                                                              |
+| 01-04-2014 to 31-03-2016                     | 8.4                                                                                                                              |
+| 01-04-2016 to 30-09-2016                     | 7.4                                                                                                                              |
+| 01-10-2016 to 31-03-2017                     | 7.3                                                                                                                              |
+| 01-04-2017 to 30-06-2017                     | 7.2                                                                                                                              |
+| 01-07-2017 to 31-12-2017                     | 7.1                                                                                                                              |
+| 01-01-2018 to 30-09-2018                     | 6.9                                                                                                                              |
+| 01-10-2018 to 30-06-2019                     | 7.3                                                                                                                              |
+| 1.07.2019 to 31.03.2020                      | 7.2                                                                                                                              |
+| 1.4.2020 to 31.03.2023                       | 5.8                                                                                                                              |
+| 1.4.2023 to 30.06.2023                       | 6.2                                                                                                                              |
+| 1.7.2023 to 30.09.2023                       | 6.5                                                                                                                              |
+| 1.10.2023 to 31.03.2026                      | 6.7                                                                                                                              |
+|                                              |                                                                                                                                  |
+| Policies                                     |                                                                                                                                  |
+| Category                                     | Provision / Rule                                                                                                                 |
+| Scheme Name                                  | National Savings Recurring Deposit Scheme, 2019                                                                                  |
+| Legal Authority                              | Section 3A, Government Savings Promotion Act, 1873                                                                               |
+| Notification                                 | G.S.R. 918(E)                                                                                                                    |
+| Commencement                                 | Date of publication in the Official Gazette                                                                                      |
+| Applicable Rules                             | Government Savings Promotion General Rules, 2018                                                                                 |
+| Definition of Year                           | Twelve months commencing from the date of first deposit                                                                          |
+| Eligible Account Holders                     | Single adult; up to three adults jointly; guardian for minor or person of unsound mind; minor aged 10 years or above in own name |
+| Number of Accounts Allowed                   | More than one account may be opened by an individual                                                                             |
+| Maturity Period                              | Five years                                                                                                                       |
+| Total Deposits Required                      | Sixty monthly deposits                                                                                                           |
+| Minimum Monthly Deposit                      | ₹100                                                                                                                             |
+| Deposit Denomination                         | Multiples of ₹10                                                                                                                 |
+| First Deposit                                | At the time of opening of account                                                                                                |
+| Deposit Due Date (Opened before 16th)        | On or before 15th day of each month                                                                                              |
+| Deposit Due Date (Opened on/after 16th)      | On or before last working day of the month                                                                                       |
+| Permissible Defaults                         | Up to four defaults                                                                                                              |
+| Effect of ≤4 Defaults                        | Maturity period may be extended by number of default months                                                                      |
+| Effect of >4 Defaults                        | Account treated as discontinued                                                                                                  |
+| Revival Period                               | Within two months from month of fourth default                                                                                   |
+| Revival Fee                                  | ₹1 per ₹100 per month of default (proportionate)                                                                                 |
+| Status After Revival                         | Account not treated as discontinued                                                                                              |
+| Advance Deposits Allowed                     | Yes, for a minimum of six months                                                                                                 |
+| Advance Deposit Rebate (₹100 denomination)   | ₹10 for 6–11 deposits; ₹40 per 12 deposits + ₹10 for ≥6 balance                                                                  |
+| Advance Deposit Limit                        | Up to five years                                                                                                                 |
+| Premature Closure                            | Permitted after three years                                                                                                      |
+| Premature Closure Interest Rate              | Post Office Savings Account interest rate                                                                                        |
+| Restriction on Premature Closure             | Not allowed during advance deposit period                                                                                        |
+| Maturity Amount (₹100 denomination)          | ₹7,231.38 (accounts opened 12-12-2019 to 31-03-2020); ₹6,969.67 (accounts opened on or after 01-04-2020)                         |
+| Continuation Beyond Maturity (with deposits) | Allowed up to five years with same monthly deposit                                                                               |
+| Closure After Continuation                   | Amount payable as per statutory continuation tables                                                                              |
+| Retention Beyond Maturity (without deposits) | Allowed up to five years                                                                                                         |
+| Interest During Retention                    | RD rate for completed years; POSA rate for completed months                                                                      |
+| Repayment on Death (General Rule)            | Nominee/legal heir entitled to repayment as per deposit status                                                                   |
+| Protected Savings Scheme Eligibility         | Death during maturity/extension, account not discontinued, ≥2 years old, age 18–55 at opening, first 24 deposits without default |
+| Protected Savings Scheme Limit               | Restricted to maturity value of ₹100 denomination                                                                                |
+| Multiple Accounts (Protected Scheme)         | Benefit limited to maturity value of one ₹100 denomination account                                                               |
+| Advance Deposits on Death                    | Refunded along with maturity amount                                                                                              |
+| Loan Eligibility                             | After 1 year and 12 monthly deposits                                                                                             |
+| Maximum Loan Amount                          | 50% of deposits made                                                                                                             |
+| Loan Interest Rate                           | RD interest rate + 2% (simple interest)                                                                                          |
+| Loan Repayment                               | Lump sum or monthly instalments                                                                                                  |
+| Loan Recovery                                | Adjusted against amount payable on closure                                                                                       |
+| Rounding Rule                                | ≥50 paise rounded up; <50 paise ignored                                                                                          |
+| Minor Attaining Majority                     | May continue account or claim proportionate amount                                                                               |
+| Declaration on Majority                      | Mandatory acceptance of Rules and Scheme                                                                                         |
+| Application of General Rules                 | Applies where Scheme is silent                                                                                                   |
+| Power to Relax                               | Central Government may relax provisions to avoid hardship                                                                        |

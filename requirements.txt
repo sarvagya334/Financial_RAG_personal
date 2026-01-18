@@ -1,0 +1,10 @@
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+langchain
+langchain-openai
+langchain-core
+pdfplumber
+openpyxl
+docling
