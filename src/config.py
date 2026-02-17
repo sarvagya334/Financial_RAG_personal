@@ -18,10 +18,10 @@ VALID_ASSET_CLASSES = {"Stable", "Growth"}
 AMBIGUOUS_TERMS = ["sgs"]  # can expand list later
 
 # ---- Embedding model ----
-EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL_NAME = "mukaj/fin-mpnet-base"
   # falls back to cpu automatically
 
 # ---- LLM Config (NVIDIA endpoint) ----
 NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
-NVIDIA_MODEL = "meta/llama3-8b-instruct"
+NVIDIA_MODEL = "meta/llama3-405b-instruct"
 DEFAULT_TEMPERATURE = 0

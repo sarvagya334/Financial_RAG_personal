@@ -46,13 +46,10 @@ def convert_all_raw_to_markdown(raw_dir: str, processed_dir: str) -> List[str]:
         name, _ = os.path.splitext(filename)
         expected_md = os.path.join(processed_dir, f"{name}.md")
 
-        # ✅ already converted → skip
         if os.path.exists(expected_md):
             print(f"[SKIP] Already converted: {filename} → {name}.md")
             md_paths.append(expected_md)
             continue
-
-        # convert now
         try:
             md_path = docling_convert_to_markdown(file_path, processed_dir)
             md_paths.append(md_path)

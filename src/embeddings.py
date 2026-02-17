@@ -1,28 +1,17 @@
 from __future__ import annotations
 from sentence_transformers import SentenceTransformer
 from .config import EMBEDDING_MODEL_NAME
+import numpy as np
+import faiss
+import os
 
 
 def detect_device() -> str:
-    """
-    General device selection (works on any PC):
-    Priority:
-      1) CUDA GPU (NVIDIA)
-      2) Apple Silicon MPS
-      3) CPU fallback
-    """
     try:
         import torch
-
         if torch.cuda.is_available():
             return "cuda"
-
-        # Apple Silicon support
-        if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-            return "mps"
-
-        return "cpu"
-
+        return "cpu"     # ✅ Force CPU on mac
     except Exception:
         return "cpu"
 
@@ -34,17 +23,24 @@ def load_embedding_model() -> SentenceTransformer:
 
 
 def build_faiss_index(texts, model):
-    import faiss
+    # ✅ avoid loky/tokenizer multiprocessing issues
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    os.environ["OMP_NUM_THREADS"] = "1"
+    os.environ["MKL_NUM_THREADS"] = "1"
+    os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
+    os.environ["NUMEXPR_NUM_THREADS"] = "1"
 
     embeddings = model.encode(
         texts,
-        batch_size=32,
+        batch_size=16,
         show_progress_bar=True,
         convert_to_numpy=True
-    )
+    ).astype("float32")
 
+    # ✅ cosine similarity
+    faiss.normalize_L2(embeddings)
     dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)
+    index = faiss.IndexFlatIP(dim)
     index.add(embeddings)
 
     return index, embeddings
